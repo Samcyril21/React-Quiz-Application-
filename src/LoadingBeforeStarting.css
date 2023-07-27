@@ -8,3 +8,10 @@
 #count{
   color:orangered ;
 }
+#instructions{
+  border: 1px solid indianred;
+  border-radius: 3px;
+}
+#note{
+  margin: 8px;
+}

@@ -4,6 +4,7 @@ import { Routes, Route, Link, useNavigate } from 'react-router-dom';
 import QuestionsArr from './Questions'
 import {Name} from './App'
 import CountdownTimer from './CountDown'
+import "./TestInterface.css";
 
 
 

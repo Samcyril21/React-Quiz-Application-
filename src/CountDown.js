@@ -43,7 +43,7 @@ function CountdownTimer() {
     return () => clearInterval(interval);
   }, [countDownTime]);
 
-  return <div style={{ color: timerColor }}>{timerDisplay}</div>;
+  return <span style={{ color: timerColor }}>{timerDisplay}</span>;
 }
 
 export default CountdownTimer;

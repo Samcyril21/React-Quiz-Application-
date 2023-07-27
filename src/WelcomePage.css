@@ -1,0 +1,43 @@
+.welcomepagecontentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.welcomepagecontentContainer h1,
+p,
+input,
+button {
+  margin: 7px;
+  color: indianred;
+}
+.welcomepagecontentContainer button:enabled {
+  color: white;
+  background-color: indianred;
+  border: 0px;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+}
+.welcomepagecontentContainer button:hover{
+  cursor: pointer;
+  color: indianred;
+  background-color:white ;
+  border: 1px solid indianred ;
+}
+.welcomepagecontentContainer button:disabled{
+  color: rgba(255, 255, 255, 0.464);
+  background-color: rgba(95, 77, 77, 0.273);
+  border: 0px;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+}
+.welcomepagecontentContainer input{
+     padding: 5px;
+     border: 1px solid indianred ;
+     color: black;
+     border-radius: 5px;
+}

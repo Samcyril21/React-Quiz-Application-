@@ -160,8 +160,8 @@ export default function TestInterface() {
   <React.Fragment >
     <div id="TestScreen" style={{ backgroundColor: "#fff" }}>
     <div id="Interface_Top"> 
-      <div><h2 className="Pagecolor1"><span className="Pagecolor1">Java</span>Script<span className="Pagecolor"> MCQ</span></h2></div>
-      <div><h4>Name : {Name}</h4><h3>Time Remaining: <CountdownTimer/></h3></div>
+      <div id="testheading"><h2 className="Pagecolor1"><span className="Pagecolor1">Java</span>Script<span className="Pagecolor"> MCQ</span></h2></div>
+      <div id="nameandcounter"><h4>Name : {Name}</h4><h3>Time Remaining: <CountdownTimer/></h3></div>
     </div>
 
       <div id="Qpartandmap" >

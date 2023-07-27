@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
   font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  box-sizing: border-box;
+  
 }
 
 
@@ -205,4 +208,75 @@ label input[type="radio"]:checked +span {
 
   background-color: rgb(97, 210, 255);
   border-color: rgb(0, 43, 163);
+}
+
+@media only screen and (max-width:768px){
+  #Interface_Top{
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  #testheading{
+    font-size:12px;
+    width: 50%;
+    margin-right:1rem ;
+  }
+  #nameandcounter{
+    font-size: 10px;
+    /* padding: 0px;
+    margin: 0px; */
+  }
+  #nameandcounter h4,h3{
+    margin: 0.5px;
+  }
+  #Qpartandmap
+{
+  display: flex;
+}
+#buttonsContainer
+{
+  display: grid;
+  place-items:center;
+  grid-template-columns: 25% 25%;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-around;
+ 
+}
+#buttonsContainer button {
+  margin:0.5rem;
+  text-align: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color:rgb(129, 224, 192);
+  border: 1px solid rgb(52, 204, 153);
+  border-radius: 5px;
+  font-size:medium;
+  font-weight: bolder;
+  box-shadow: 0px 0px 3px rgb(5, 255, 205);
+}
+#Qpartandmap #map
+{
+  box-shadow: 0px 0px 10px rgb(56, 56, 56);
+  border-radius: 0.5rem;
+  height: 29rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+#Qpartandmap #Qpart
+{
+  box-shadow: 0px 0px 10px rgb(56, 56, 56);
+  border-radius: 0.5rem;
+  height: 29rem;
+  width: 245px;
+  margin-right: 0rem;
+}
+#Qpart p
+{
+  margin: -0.5rem 0 2rem 0;
+  width: 60vw;
+  font-size: 20px;
+}
 }

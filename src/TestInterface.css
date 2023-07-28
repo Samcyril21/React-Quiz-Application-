@@ -212,10 +212,22 @@ label input[type="radio"]:checked +span {
   background-color: rgb(97, 210, 255);
   border-color: rgb(0, 43, 163);
 }
+#result{
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:whitesmoke;
+  color: indianred;
+  border: 1px solid indianred;
+  border-radius: 7px;
+  padding: 10px;
+  width: 90%;
+}
 #submitcenter{
   color: black;
-  width:20px ;
-}
+} 
 
 @media only screen and (max-width:768px){
   #Interface_Top{
@@ -296,6 +308,7 @@ label input[type="radio"]:checked +span {
   border-radius: 5px;
   width: 4rem;
   height: 2rem;
+  font-size: x-small;
 }
 /* .optionscontainer input
 {
@@ -349,6 +362,7 @@ label span {
   width: 20px;
   margin: 20px;
   color:black;
+  font-size:x-small;
 }
 #submitcenter{
   color: black;

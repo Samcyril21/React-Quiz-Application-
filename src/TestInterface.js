@@ -226,9 +226,9 @@ export default function TestInterface() {
           </div>
 
           <div id="PreNextbuttonscontainer">
-          {qno>0 ? (<button onClick={prevquestion}>&#10096;&#10096;  Prev</button>):(<button id="discur" disabled="true" onClick={()=>goto(1)}>&#10096;&#10096;  Prev</button>)}
-          {qno==QuestionsArr.length-1 ? (<button onClick={SubmitTest}>Submit</button>):''}
-          {qno<QuestionsArr.length-1 ? (<button onClick={()=>nextquestion(qno)}>Next  &#10097;&#10097;</button>):(<button disabled="true" id="discur">Next  &#10097;&#10097;</button>)}
+          {qno>0 ? (<button id="discur" onClick={prevquestion}>&#10096;&#10096;  Prev</button>):(<button id="discur" disabled="true" onClick={()=>goto(1)}>&#10096;&#10096;  Prev</button>)}
+          {qno==QuestionsArr.length-1 ? (<button id ="submitcenter" onClick={SubmitTest}>Submit</button>):''}
+          {qno<QuestionsArr.length-1 ? (<button id="discur" onClick={()=>nextquestion(qno)}>Next  &#10097;&#10097;</button>):(<button disabled="true" id="discur">Next  &#10097;&#10097;</button>)}
           </div>
 
 
